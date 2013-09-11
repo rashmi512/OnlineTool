@@ -1,0 +1,56 @@
+/* 
+    Document   : style
+    Created on : Sep 5, 2013, 5:36:52 PM
+    Author     : B.Revanth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#header
+{
+    background-color: #808080;
+}
+/*
+#main-wrap {
+    background-color: #D9D9D9;
+}
+
+#sidebar {
+    background-color: #d2d2d2;
+}
+
+#content-wrap {
+    background-color: #c5c5c5;
+}*/
+#main-wrap > div { 
+    min-height: 550px; 
+    
+}
+#header{
+    min-height: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: 0px;
+}
+#footer {
+    min-height: 30px;
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#sidebar {
+    float: left;
+    width: 50%;
+}
+
+#content-wrap {
+    float: right;
+    width: 50%;
+}
+#form {
+    margin-left: -2px;
+    margin-top: -23px;
+}
