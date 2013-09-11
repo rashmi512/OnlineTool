@@ -1,0 +1,121 @@
+/* 
+    Document   : categories
+    Created on : Sep 6, 2013, 1:25:24 AM
+    Author     : B.Revanth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#header,#footer
+{
+    background-color: #808080;
+}
+
+/*#main-wrap {
+    background-color: #D9D9D9;
+}
+
+#sidebar {
+    background-color: #d2d2d2;
+}
+
+#content-wrap {
+    background-color: #c5c5c5;
+}*/
+#main-wrap > div { 
+    min-height: 550px; 
+    
+}
+#header{
+    min-height: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: 0px;
+}
+#footer {
+    min-height: 30px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#sidebar {
+    float: left;
+    width: 50%;
+}
+
+#content-wrap {
+    float: right;
+    width: 50%;
+}
+input[type="text"] {
+    margin-top:15px;
+    margin-left: 1050px;
+    background: url(../images/search-white.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #d7d7d7;
+    width:150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); 
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+input[type="text"]:focus {
+    background: url(../images/search-dark.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width: 200px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.headerwrap{
+    width:100%;
+    margin: 0 auto;
+    height:55px;
+
+}
+#images{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: none;
+}
+#categories{
+    margin-left: 190px;
+    margin-top: 50px;
+}
+a:link 
+{
+color:red;
+text-decoration:none;
+}
+a:visited 
+{
+color:red;
+text-decoration:none;
+}
+a:hover 
+{
+color:green;
+text-decoration:underline;
+}
+a:active 
+{
+color:green;
+text-decoration:underline;
+}
